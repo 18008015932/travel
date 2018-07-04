@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block CSS %}
+    <link rel="stylesheet" href="{% static 'css/base_main.css' %}">
+{% endblock %}
+{% block JS %}
+    <link rel="stylesheet" href="{% static 'js/jquery.js' %}">
+    <link rel="stylesheet" href="{% static 'js/jquery.min.js' %}">
+{% endblock %}
+{% block header %}
+    <div id="nav-head">
+        <ul>
+            <img src="{% static 'img/logo.png' %}" alt="logo">
+            <li><a href=""></a>首页</li>
+            <li><a href=""></a>风景</li>
+            <li><a href=""></a>风俗</li>
+            <li><a href=""></a>美食</li>
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,31 @@
+#nav-head{
+    height: 50px;
+    width: 100%;
+}
+#nav-head img{
+    width: 19.5%;
+    height: 50px;
+    float: left;
+}
+#nav-head li{
+    display: block;
+    height: 100%;
+    width: 19.5%;
+    float: left;
+    background-color: lightgray;
+    color: white;
+    line-height: 50px;
+    border-left: 1px solid black;
+    font-family: '幼圆';
+    font-size: 2ex;
+    list-style: none;
+    text-align: center;
+    box-shadow: 1px 1px lightblue;
+}
+#nav-head a{
+    display: block;
+}
+#nav-head li:hover{
+    color: #000;
+    border-top: 2px solid lightgray;
+}
