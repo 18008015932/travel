@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'utils.UserAuthMiddleWare.AuthMiddleWare',
 ]
 
 ROOT_URLCONF = 'travel.urls'
@@ -81,7 +82,7 @@ DATABASES = {
         'NAME': 'travel',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': '199677gerpi',
+        'PASSWORD': '123456',
         'PORT': '3306'
     }
 }

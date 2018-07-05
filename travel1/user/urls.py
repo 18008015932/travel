@@ -8,5 +8,6 @@ urlpatterns =[
     url(r'article/', views.article),
     url(r'detail/', views.detail),
     url(r'resource/', views.resource),
-
+    url(r'login/',views.login),
+    url(r'regist/',views.user_register)
 ]

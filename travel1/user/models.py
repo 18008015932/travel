@@ -81,3 +81,12 @@ class Comment(models.Model): # 评论表
 
     def __str__(self):
         return self.com_content
+
+
+class UserTicket(models.Model):
+    name = models.ForeignKey(User)
+    ticket = models.CharField(max_length=200,null=True)
+    out_time = models.DateField()
+
+    class Meta:
+        db_table = 'ticket'
